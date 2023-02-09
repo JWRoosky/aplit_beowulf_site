@@ -7,9 +7,10 @@ body {
     min-height: 100%;
     margin: 0;
     font-family: 'Lora', serif;
-    background-image: linear-gradient(to bottom, #3a5a5a, #517a65);
+    background-image: black);
     text-align: center;
     color: white;
+    font-size: 18px;
 }
 
 span{
@@ -37,6 +38,27 @@ a#home:hover {
     height: 100%;
     width: 100%;
     margin: 0;
+    color: black;
+}
+.text {
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size: 20px;
+}
+
+.head {
+
+}
+
+#ital1 {
+    font-size: 22px;
+}
+
+#vid{
+    margin: 30px;
+    border-style: solid;
+    border-width: 1px;
+    padding: 10px;
 }
 
 #front-page {
@@ -51,10 +73,13 @@ a#home:hover {
 }
 
 #title {
-    font-size: 50px;
+    font-family: 'Bitter', serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 90px;
     margin-top: 55vh;
     color: white;
     user-select: none;
+    border-
 }
 
 #top-bar {
@@ -74,16 +99,16 @@ li {
 
 a#top-nav {
     text-decoration: none;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    box-shadow: inset 0 0 0 0 white;
+    font-family: 'Bitter', serif;
+    box-shadow: inset 0 0 0 0 black;
     color: white;
-    margin: 0 -.25rem;
-    padding: 0 .25rem;
-    transition: color .5s ease-in-out, box-shadow .5s ease-in-out;
+    margin: 0 -.5rem;
+    padding: 0 .5rem;
+    transition: color .75s ease-in-out, box-shadow .75s ease-in-out;
 }
 
 a#top-nav:hover {
-    box-shadow: inset 200px 0 0 0 black;
+    box-shadow: inset 300px 0 0 0 black;
     color: white;
 }
 
