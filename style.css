@@ -21,10 +21,10 @@ span{
 
 a#home {
     position: fixed;
-    right: 50px;
-    bottom: 50px;
-    color: #C1B3AF;
-    background-color: #000000;
+    right: 30px;
+    bottom: 30px;
+    color: white;
+    background-color: rgba(128, 128, 128);
     padding: 10px;
     border-radius: 30px;
     text-decoration: none;
@@ -32,7 +32,7 @@ a#home {
 }
 
 a#home:hover {
-    color: #929292;
+    color: #d1c9c9;
 }
 
 .panel {
@@ -113,6 +113,9 @@ img{
     padding-top: 20px;
     padding-bottom: 20px;
     width: 400px;
+    max-height: 400px;
+    max-width: 400px;
+    min-width: 400px;
 }
 
 .widetext{
@@ -124,7 +127,7 @@ img{
 }
 
 #final{
-    width: 1400px;
+    width: 1550px;
 }
 
 #journey{
