@@ -1,5 +1,6 @@
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 body {
@@ -164,7 +165,7 @@ img{
     left: 0;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 90px;
-    margin-top: 55vh;
+    margin-top: 35vh;
     color: white;
     user-select: none;
     width: 320px;
